@@ -1,6 +1,7 @@
 body {
   background-color: #393e46;
   text-align: center;
+  padding: 10%;
 }
 
 img {
@@ -64,4 +65,21 @@ img {
     rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
     rgba(44, 187, 99, 0.25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
+}
+
+@media only screen and (max-width: 1288px) {
+  img {
+    max-width: 100%;
+    padding: 15%;
+  }
+
+  .big-header {
+    font-size: 4.5rem;
+  }
+
+  .sub-header {
+    font-size: 2rem;
+    display: inline-block;
+    padding: 50px 0 0 0;
+  }
 }
