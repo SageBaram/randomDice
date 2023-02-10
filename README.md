@@ -1,5 +1,6 @@
 # randomDice
 
+
 In this project I practiced by rewriting the html & css based on skeleton project looks on the browser.<br>
 Learned about basic JS & DOM manipulation. Added bootstrap for responsiveness on all window sizes.
 
@@ -13,3 +14,8 @@ Learned about basic JS & DOM manipulation. Added bootstrap for responsiveness on
    - It sets the `big-header` or the `<h1>` element's text content to display the winner/draw instead.
 
 Was a simple & fun project. There is not much in it but feel free to code review and open an [issue](https://github.com/SageBaram/randomDice/issues/new) or a PR.
+
+On mobile:<br>
+
+<img src="assets/sample_mobile.jpeg"  width="50%" height=""></img>
+
