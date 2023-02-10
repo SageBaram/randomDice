@@ -1,7 +1,7 @@
 # randomDice
 
-In this project I practiced by rewriting the html & css based on skeleton project looks.
-Learned about basic JS & DOM manipulation.
+In this project I practiced by rewriting the html & css based on skeleton project looks on the browser.<br>
+Learned about basic JS & DOM manipulation. Added bootstrap for responsiveness on all window sizes.
 
 ![sample-image](assets/image.png "Random Dice Game")
 
