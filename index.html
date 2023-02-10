@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <title>🎲 Dice Gam 🎲</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet" />
-	<title>🎲 Dice Gam 🎲</title>
-	<link rel="stylesheet" href="css/styles.css" />
-</head>
+  <body>
+    <section id="title">
+      <div class="container">
+        <h1 class="big-header" onclick="onclick()">Roll The Dice!</h1>
+        <h2 class="sub-header">Player 1</h2>
+        <h2 class="sub-header">Player 2</h2>
+      </div>
+    </section>
 
-<body>
-	<section id="title">
-		<div class="container">
-			<h1 class="big-header">Refresh Me</h1>
-			<h2 class="sub-header">Player 1</h2>
-			<h2 class="sub-header">Player 2</h2>
-		</div>
-	</section>
+    <section id="dices">
+      <div>
+        <img class="player-1-dice" src="images/dice6.png" alt="random-dice" />
+        <img class="player-2-dice" src="images/dice6.png" alt="random-dice" />
+      </div>
+      <button class="roll" onclick="onClick()">Roll The Dice!</button>
+    </section>
 
-	<section id="dices">
-		<div>
-			<img class="player-1-dice" src="images/dice6.png" alt="random-dice" />
-			<img class="player-2-dice" src="images/dice6.png" alt="random-dice" />
-		</div>
-		<button class="roll" onclick="onClick()">Roll The Dice!</button>
-	</section>
-
-	<script src="randomDice.js" charset="utf-8"></script>
-</body>
-<section id="footer">
-	<p>www 🎲 AppBrewery 🎲 com</p>
-</section>
-
+    <script src="randomDice.js" charset="utf-8"></script>
+  </body>
+  <section id="footer">
+    <p>www 🎲 AppBrewery 🎲 com</p>
+  </section>
 </html>
