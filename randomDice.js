@@ -7,10 +7,10 @@ function onClick() {
   let player2Score = randomDice();
 
   document
-    .querySelector(".player-1-dice")
+    .querySelector(".p1-dice")
     .setAttribute("src", `images/dice${player1Score}.png`);
   document
-    .querySelector(".player-2-dice")
+    .querySelector(".p2-dice")
     .setAttribute("src", `images/dice${player2Score}.png`);
 
   var bigHeader = document.querySelector(".big-header");
