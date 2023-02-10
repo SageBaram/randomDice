@@ -3,7 +3,7 @@
 In this project I practiced by rewriting the html & css based on skeleton project looks.
 Learned about basic JS & DOM manipulation.
 
-![sample-image](assets/sample_image.png "Random Dice Game")
+![sample-image](assets/image.png "Random Dice Game")
 
 - When the page is loaded, the dice images are set to 6. Both the big heading and the button at the bottom are clickable.<br>
 - Player 1 is set to the left dice, Player 2 is set to the right dice.
